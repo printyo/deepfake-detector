@@ -1,0 +1,39 @@
+# Python venv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Data (big files)
+data/dataset_original/
+data/dataset_compressed/
+#data/splits/*.csv
+
+# Model checkpoints / weights
+checkpoints/
+outputs/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Temporary files
+tmp/
+cache/
