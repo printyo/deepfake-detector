@@ -5,7 +5,7 @@ import pandas as pd
 from tqdm import tqdm
 
 TIERS = {
-    "LQ1-480p": {"scale": 640, "bv": "800k", "ba": "64k", "fps": 15},  # 480p-ish
+    "LQ1-480ppppppp": {"scale": 640, "bv": "800k", "ba": "64k", "fps": 15},  # 480p-ish
     "LQ2-360p": {"scale": 480, "bv": "400k", "ba": "64k", "fps": 15},  # 360p-ish
     "LQ3-240p": {"scale": 426, "bv": "200k", "ba": "48k", "fps": 15},  # 240p-ish
 }
